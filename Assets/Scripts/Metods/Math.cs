@@ -4,15 +4,36 @@ using UnityEngine;
 
 public class Math : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Vector4 ReversinputsLocationLine;
+    public Vector4 InputsLocationLine;
+    
+    private void Awake()
     {
-        
+        GameManager.math = this;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void FindSightDirection()
     {
-        
+
+       
+
+
+
+
+        ReversinputsLocationLine.x = GameManager.controllerManager.FirstMousePosition.x - GameManager.controllerManager.SecondMousePosition.x; 
+        ReversinputsLocationLine.y = GameManager.controllerManager.FirstMousePosition.y - GameManager.controllerManager.SecondMousePosition.y;
+        float Newvectorlenght = Mathf.Sqrt(ReversinputsLocationLine.x * ReversinputsLocationLine.x + ReversinputsLocationLine.y * ReversinputsLocationLine.y) ;
+        ReversinputsLocationLine.w = Mathf.Acos(ReversinputsLocationLine.x / Newvectorlenght) * 57.2957795f;
+        InputsLocationLine.x = ReversinputsLocationLine.x * -1;
+        InputsLocationLine.y = ReversinputsLocationLine.y * -1;
+
+
+
     }
+
+
+
+
+
+
 }
