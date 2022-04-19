@@ -1,0 +1,1590 @@
+fileFormatVersion: 2
+guid: 13d09b68c3ea44b419fcb1cc91ccc588
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5952014228012944407
+    second: Animation Ball_0
+  - first:
+      213: -5533010141271428852
+    second: Animation Ball_1
+  - first:
+      213: 2016823111403753447
+    second: Animation Ball_2
+  - first:
+      213: -1160715187235356560
+    second: Animation Ball_3
+  - first:
+      213: 8132990913473787861
+    second: Animation Ball_4
+  - first:
+      213: 1028433107589621862
+    second: Animation Ball_5
+  - first:
+      213: -452459433381668057
+    second: Animation Ball_6
+  - first:
+      213: 8710892301793405712
+    second: Animation Ball_7
+  - first:
+      213: -7501442646369831587
+    second: Animation Ball_8
+  - first:
+      213: 3446523493333339392
+    second: Animation Ball_9
+  - first:
+      213: 5542155736359555627
+    second: Animation Ball_10
+  - first:
+      213: 6230659978269956218
+    second: Animation Ball_11
+  - first:
+      213: 27005570052246146
+    second: Animation Ball_12
+  - first:
+      213: -5507756486922211666
+    second: Animation Ball_13
+  - first:
+      213: -6219754875511020454
+    second: Animation Ball_14
+  - first:
+      213: -8773900439596587743
+    second: Animation Ball_15
+  - first:
+      213: -7612480450159520992
+    second: Animation Ball_16
+  - first:
+      213: -3582185480730671002
+    second: Animation Ball_17
+  - first:
+      213: 6261613010406858121
+    second: Animation Ball_18
+  - first:
+      213: 3794646229944804097
+    second: Animation Ball_19
+  - first:
+      213: 687508412803092066
+    second: Animation Ball_20
+  - first:
+      213: 3532268241662206184
+    second: Animation Ball_21
+  - first:
+      213: -1091123372020768837
+    second: Animation Ball_22
+  - first:
+      213: 1771827696882385830
+    second: Animation Ball_23
+  - first:
+      213: -2185705550177406784
+    second: Animation Ball_24
+  - first:
+      213: -8653049067548329869
+    second: Animation Ball_25
+  - first:
+      213: 4463742996601086320
+    second: Animation Ball_26
+  - first:
+      213: -1660816208467254204
+    second: Animation Ball_27
+  - first:
+      213: -3723419064938096614
+    second: Animation Ball_28
+  - first:
+      213: -3200384937877802215
+    second: Animation Ball_29
+  - first:
+      213: 6286847294264768850
+    second: Animation Ball_30
+  - first:
+      213: -7401326018032079860
+    second: Animation Ball_31
+  - first:
+      213: 7577814667947988965
+    second: Animation Ball_32
+  - first:
+      213: -1294306610498023645
+    second: Animation Ball_33
+  - first:
+      213: -8602587954763303065
+    second: Animation Ball_34
+  - first:
+      213: -8869383105442637348
+    second: Animation Ball_35
+  - first:
+      213: -5959484900796059147
+    second: Animation Ball_36
+  - first:
+      213: -1118693507260726592
+    second: Animation Ball_37
+  - first:
+      213: -5769201412072345986
+    second: Animation Ball_38
+  - first:
+      213: -3453736827316709240
+    second: Animation Ball_39
+  - first:
+      213: 6024283953488508483
+    second: Animation Ball_40
+  - first:
+      213: 8178107821144583211
+    second: Animation Ball_41
+  - first:
+      213: 5007364829618133165
+    second: Animation Ball_42
+  - first:
+      213: 3226671254503506360
+    second: Animation Ball_43
+  - first:
+      213: -1407538454442441341
+    second: Animation Ball_44
+  - first:
+      213: -1545725533478397034
+    second: Animation Ball_45
+  - first:
+      213: 8221275142242237088
+    second: Animation Ball_46
+  - first:
+      213: 7431442443111101312
+    second: Animation Ball_47
+  - first:
+      213: 1748519105224316379
+    second: Animation Ball_48
+  - first:
+      213: -1670561833296501039
+    second: Animation Ball_49
+  - first:
+      213: -2192706506864610209
+    second: Animation Ball_50
+  - first:
+      213: 8386929299368348068
+    second: Animation Ball_51
+  - first:
+      213: -265087095473341722
+    second: Animation Ball_52
+  - first:
+      213: 3335300429883677191
+    second: Animation Ball_53
+  - first:
+      213: -8867892753137515985
+    second: Animation Ball_54
+  - first:
+      213: -7579896482354783362
+    second: Animation Ball_55
+  - first:
+      213: 2938104440026676675
+    second: Animation Ball_56
+  - first:
+      213: 5113415360404334883
+    second: Animation Ball_57
+  - first:
+      213: 1534693977374830977
+    second: Animation Ball_58
+  - first:
+      213: 3051477266390660706
+    second: Animation Ball_59
+  - first:
+      213: -8182775139611120300
+    second: Animation Ball_60
+  - first:
+      213: 2696779829451843880
+    second: Animation Ball_61
+  - first:
+      213: -3667611872449374557
+    second: Animation Ball_62
+  - first:
+      213: -8145987109177190186
+    second: Animation Ball_63
+  - first:
+      213: 2908475148555187552
+    second: Animation Ball_64
+  - first:
+      213: -7608690908796819461
+    second: Animation Ball_65
+  - first:
+      213: -1595920066968409739
+    second: Animation Ball_66
+  - first:
+      213: -982160320382219916
+    second: Animation Ball_67
+  - first:
+      213: 8541387366132847410
+    second: Animation Ball_68
+  - first:
+      213: 3868320506760769145
+    second: Animation Ball_69
+  - first:
+      213: 4521761130668207765
+    second: Animation Ball_70
+  - first:
+      213: -6627310723523812042
+    second: Animation Ball_71
+  - first:
+      213: 2132704421134319995
+    second: Animation Ball_72
+  - first:
+      213: 112506101289790615
+    second: Animation Ball_73
+  - first:
+      213: -2087196238444443004
+    second: Animation Ball_74
+  - first:
+      213: 8436042034949542830
+    second: Animation Ball_75
+  - first:
+      213: 8527915312969156835
+    second: Animation Ball_76
+  - first:
+      213: 7131521872337306357
+    second: Animation Ball_77
+  - first:
+      213: -65318781389909014
+    second: Animation Ball_78
+  - first:
+      213: 5842260861745179336
+    second: Animation Ball_79
+  - first:
+      213: -7710184859694718370
+    second: Animation Ball_80
+  - first:
+      213: -4635254675957111364
+    second: Animation Ball_81
+  - first:
+      213: -476721046701705516
+    second: Animation Ball_82
+  - first:
+      213: 6493645110329525461
+    second: Animation Ball_83
+  - first:
+      213: -4919659362296593247
+    second: Animation Ball_84
+  - first:
+      213: 6532321004224313429
+    second: Animation Ball_85
+  - first:
+      213: -1303928738693697972
+    second: Animation Ball_86
+  - first:
+      213: -6249144230012457985
+    second: Animation Ball_87
+  - first:
+      213: 4405655749730431248
+    second: Animation Ball_88
+  - first:
+      213: -4623596937592348111
+    second: Animation Ball_89
+  - first:
+      213: -4079650465125490188
+    second: Animation Ball_90
+  - first:
+      213: 3635949071821417767
+    second: Animation Ball_91
+  - first:
+      213: -6230525239244190279
+    second: Animation Ball_92
+  - first:
+      213: 2365997416651170347
+    second: Animation Ball_93
+  - first:
+      213: 8901493110158845750
+    second: Animation Ball_94
+  - first:
+      213: 7045799548463335008
+    second: Animation Ball_95
+  - first:
+      213: 159026039719879995
+    second: Animation Ball_96
+  - first:
+      213: -1368466559163198006
+    second: Animation Ball_97
+  - first:
+      213: -8576010103867937640
+    second: Animation Ball_98
+  - first:
+      213: -1016473926708454214
+    second: Animation Ball_99
+  - first:
+      213: -3031089465207647928
+    second: Animation Ball_100
+  - first:
+      213: -8931153833326423955
+    second: Animation Ball_101
+  - first:
+      213: 4813684918670675948
+    second: Animation Ball_102
+  - first:
+      213: -1084717287506776329
+    second: Animation Ball_103
+  - first:
+      213: -8235054958241952355
+    second: Animation Ball_104
+  - first:
+      213: -5922333578069633485
+    second: Animation Ball_105
+  - first:
+      213: 3735569987278813805
+    second: Animation Ball_106
+  - first:
+      213: -8564167705424420906
+    second: Animation Ball_107
+  - first:
+      213: 8576089408516234118
+    second: Animation Ball_108
+  - first:
+      213: 8253332541571923789
+    second: Animation Ball_109
+  - first:
+      213: 2512450170736754109
+    second: Animation Ball_110
+  - first:
+      213: -8801855156439639591
+    second: Animation Ball_111
+  - first:
+      213: 3019019907077445239
+    second: Animation Ball_112
+  - first:
+      213: 1816740122694702273
+    second: Animation Ball_113
+  - first:
+      213: 7118481401177318570
+    second: Animation Ball_114
+  - first:
+      213: -2771311760196849580
+    second: Animation Ball_115
+  - first:
+      213: 4145664371304593619
+    second: Animation Ball_116
+  - first:
+      213: -2532733984514526358
+    second: Animation Ball_117
+  - first:
+      213: 8392892085314725506
+    second: Animation Ball_118
+  - first:
+      213: 5017930141358047355
+    second: Animation Ball_119
+  - first:
+      213: 7231294515275279323
+    second: Animation Ball_120
+  - first:
+      213: -6832328356037997430
+    second: Animation Ball_121
+  - first:
+      213: 3790098891523824412
+    second: Animation Ball_122
+  - first:
+      213: 388499796846761156
+    second: Animation Ball_123
+  - first:
+      213: -3391817691405122531
+    second: Animation Ball_124
+  - first:
+      213: -566889190012857710
+    second: Animation Ball_125
+  - first:
+      213: 4452555898583048332
+    second: Animation Ball_126
+  - first:
+      213: -5473745014720815337
+    second: Animation Ball_127
+  - first:
+      213: 6089412228584394354
+    second: Animation Ball_128
+  - first:
+      213: -7427355863444600176
+    second: Animation Ball_129
+  - first:
+      213: 555485631531402350
+    second: Animation Ball_130
+  - first:
+      213: -3630142466111325059
+    second: Animation Ball_131
+  - first:
+      213: 6917859356414949041
+    second: Animation Ball_132
+  - first:
+      213: 449145125989438096
+    second: Animation Ball_133
+  - first:
+      213: -602926038074196154
+    second: Animation Ball_134
+  - first:
+      213: 4988459200398279089
+    second: Animation Ball_135
+  - first:
+      213: 403670768920614410
+    second: Animation Ball_136
+  - first:
+      213: -112003823177052248
+    second: Animation Ball_137
+  - first:
+      213: 1407236297643625625
+    second: Animation Ball_138
+  - first:
+      213: 279826501436997396
+    second: Animation Ball_139
+  - first:
+      213: -5147971735610938871
+    second: Animation Ball_140
+  - first:
+      213: 1537985802669660027
+    second: Animation Ball_141
+  - first:
+      213: -5957114538832877239
+    second: Animation Ball_142
+  - first:
+      213: 5568795938520651571
+    second: Animation Ball_143
+  - first:
+      213: -2569162890275713638
+    second: Animation Ball_144
+  - first:
+      213: 3629384231557548661
+    second: Animation Ball_145
+  - first:
+      213: -4845316281477601929
+    second: Animation Ball_146
+  - first:
+      213: -4192314649858851278
+    second: Animation Ball_147
+  - first:
+      213: -1789306837666189095
+    second: Animation Ball_148
+  - first:
+      213: 1380495577280003863
+    second: Animation Ball_149
+  - first:
+      213: 2320255717944253826
+    second: Animation Ball_150
+  - first:
+      213: 4192792485581442678
+    second: Animation Ball_151
+  - first:
+      213: 436260505613212346
+    second: Animation Ball_152
+  - first:
+      213: -8229910908507117884
+    second: Animation Ball_153
+  - first:
+      213: 2282326800469344652
+    second: Animation Ball_154
+  - first:
+      213: -3545668503499331479
+    second: Animation Ball_155
+  - first:
+      213: 4899550881575926408
+    second: Animation Ball_156
+  - first:
+      213: 4026487556811786625
+    second: Animation Ball_157
+  - first:
+      213: -8674801017667035034
+    second: Animation Ball_158
+  - first:
+      213: 4535377850704760651
+    second: Animation Ball_159
+  - first:
+      213: -6225563059301932599
+    second: Animation Ball_160
+  - first:
+      213: 7274470907325078005
+    second: Animation Ball_161
+  - first:
+      213: -8708912570979229682
+    second: Animation Ball_162
+  - first:
+      213: 7801904378088743687
+    second: Animation Ball_163
+  - first:
+      213: 3913478909283972320
+    second: Animation Ball_164
+  - first:
+      213: 1314278706261846333
+    second: Animation Ball_165
+  - first:
+      213: 4132014910665103225
+    second: Animation Ball_166
+  - first:
+      213: 90353903250632342
+    second: Animation Ball_167
+  - first:
+      213: -2063545090153300945
+    second: Animation Ball_168
+  - first:
+      213: -3429263635337410342
+    second: Animation Ball_169
+  - first:
+      213: 3631391676670268214
+    second: Animation Ball_170
+  - first:
+      213: 2168369845979098662
+    second: Animation Ball_171
+  - first:
+      213: -5231942040006959211
+    second: Animation Ball_172
+  - first:
+      213: 5137874060251051383
+    second: Animation Ball_173
+  - first:
+      213: -5268897852738588644
+    second: Animation Ball_174
+  - first:
+      213: 5790647868438437010
+    second: Animation Ball_175
+  - first:
+      213: -21944046945734980
+    second: Animation Ball_176
+  - first:
+      213: 7080148664432657401
+    second: Animation Ball_177
+  - first:
+      213: 6187594133668506059
+    second: Animation Ball_178
+  - first:
+      213: -1467511389004103010
+    second: Animation Ball_179
+  - first:
+      213: -8917100986806310350
+    second: Animation Ball_180
+  - first:
+      213: 421214825002779899
+    second: Animation Ball_181
+  - first:
+      213: 2854856155950656678
+    second: Animation Ball_182
+  - first:
+      213: 250884497224427560
+    second: Animation Ball_183
+  - first:
+      213: -3525481753865192898
+    second: Animation Ball_184
+  - first:
+      213: -4839218973510588626
+    second: Animation Ball_185
+  - first:
+      213: 8134666015162029662
+    second: Animation Ball_186
+  - first:
+      213: 5472114537752081245
+    second: Animation Ball_187
+  - first:
+      213: 4419155067943743248
+    second: Animation Ball_188
+  - first:
+      213: 3873003887674766559
+    second: Animation Ball_189
+  - first:
+      213: -42647672424967773
+    second: Animation Ball_190
+  - first:
+      213: 6060245057917294405
+    second: Animation Ball_191
+  - first:
+      213: 1310534959830640336
+    second: Animation Ball_192
+  - first:
+      213: -7235895603205278495
+    second: Animation Ball_193
+  - first:
+      213: -238128952579896213
+    second: Animation Ball_194
+  - first:
+      213: -5424386386959700735
+    second: Animation Ball_195
+  - first:
+      213: 7396977703005009576
+    second: Animation Ball_196
+  - first:
+      213: -941820446406082742
+    second: Animation Ball_197
+  - first:
+      213: 7022758110923214580
+    second: Animation Ball_198
+  - first:
+      213: 2912482542871661308
+    second: Animation Ball_199
+  - first:
+      213: -2276673890554259778
+    second: Animation Ball_200
+  - first:
+      213: -6589785903908591244
+    second: Animation Ball_201
+  - first:
+      213: 3722422358499564297
+    second: Animation Ball_202
+  - first:
+      213: -124207899920041261
+    second: Animation Ball_203
+  - first:
+      213: -2530900633979130838
+    second: Animation Ball_204
+  - first:
+      213: -2214660384278978070
+    second: Animation Ball_205
+  - first:
+      213: -6391645906468033213
+    second: Animation Ball_206
+  - first:
+      213: -507694019017602797
+    second: Animation Ball_207
+  - first:
+      213: 6520406467354781922
+    second: Animation Ball_208
+  - first:
+      213: -1679308966551009353
+    second: Animation Ball_209
+  - first:
+      213: 303849454567780066
+    second: Animation Ball_210
+  - first:
+      213: -5026852139386719707
+    second: Animation Ball_211
+  - first:
+      213: -550056473725878102
+    second: Animation Ball_212
+  - first:
+      213: -3814536238871309265
+    second: Animation Ball_213
+  - first:
+      213: 2161717565819794497
+    second: Animation Ball_214
+  - first:
+      213: -4799447638696325210
+    second: Animation Ball_215
+  - first:
+      213: -4437101797832527468
+    second: Animation Ball_216
+  - first:
+      213: -301278842367721545
+    second: Animation Ball_217
+  - first:
+      213: -4566704698728743530
+    second: Animation Ball_218
+  - first:
+      213: 9008421960526928202
+    second: Animation Ball_219
+  - first:
+      213: -2776980932489304995
+    second: Animation Ball_220
+  - first:
+      213: 1631094013990902161
+    second: Animation Ball_221
+  - first:
+      213: 134429789455222517
+    second: Animation Ball_222
+  - first:
+      213: 5489410123487118768
+    second: Animation Ball_223
+  - first:
+      213: 8544903408037054404
+    second: Animation Ball_224
+  - first:
+      213: -1631773945272110729
+    second: Animation Ball_225
+  - first:
+      213: 5499582174927548857
+    second: Animation Ball_226
+  - first:
+      213: 3890535813183860073
+    second: Animation Ball_227
+  - first:
+      213: 5727974849379011585
+    second: Animation Ball_228
+  - first:
+      213: 7108469480751626866
+    second: Animation Ball_229
+  - first:
+      213: -6230823800277808894
+    second: Animation Ball_230
+  - first:
+      213: 7493933321074663947
+    second: Animation Ball_231
+  - first:
+      213: 2776212242793882691
+    second: Animation Ball_232
+  - first:
+      213: -1749649284190180856
+    second: Animation Ball_233
+  - first:
+      213: 1733897427552648040
+    second: Animation Ball_234
+  - first:
+      213: -2517914950564723259
+    second: Animation Ball_235
+  - first:
+      213: 395010133609634428
+    second: Animation Ball_236
+  - first:
+      213: 5677321639942329360
+    second: Animation Ball_237
+  - first:
+      213: -3332224313782808012
+    second: Animation Ball_238
+  - first:
+      213: -4884327602680956450
+    second: Animation Ball_239
+  - first:
+      213: -7415950641581870879
+    second: Animation Ball_240
+  - first:
+      213: -2345336433729554822
+    second: Animation Ball_241
+  - first:
+      213: -3213129193398968776
+    second: Animation Ball_242
+  - first:
+      213: 5340229721487561836
+    second: Animation Ball_243
+  - first:
+      213: -3600596874838810864
+    second: Animation Ball_244
+  - first:
+      213: -4462626364933521863
+    second: Animation Ball_245
+  - first:
+      213: -5903980859066254075
+    second: Animation Ball_246
+  - first:
+      213: 8051039968808259243
+    second: Animation Ball_247
+  - first:
+      213: 5699005775922816994
+    second: Animation Ball_248
+  - first:
+      213: 1719507964203060989
+    second: Animation Ball_249
+  - first:
+      213: 8371033968668396968
+    second: Animation Ball_250
+  - first:
+      213: 6321723834317354779
+    second: Animation Ball_251
+  - first:
+      213: -8950869852523475219
+    second: Animation Ball_252
+  - first:
+      213: 7819557902005147698
+    second: Animation Ball_253
+  - first:
+      213: 6421147967821261858
+    second: Animation Ball_254
+  - first:
+      213: 8490865780775308091
+    second: Animation Ball_255
+  - first:
+      213: -6978739910113307842
+    second: Animation Ball_256
+  - first:
+      213: -707210677192824173
+    second: Animation Ball_257
+  - first:
+      213: -3874895932079494984
+    second: Animation Ball_258
+  - first:
+      213: -7094328629557072863
+    second: Animation Ball_259
+  - first:
+      213: -297866370759872095
+    second: Animation Ball_260
+  - first:
+      213: -3124863857325239870
+    second: Animation Ball_261
+  - first:
+      213: 8355655140385130621
+    second: Animation Ball_262
+  - first:
+      213: 8763328387528292052
+    second: Animation Ball_263
+  - first:
+      213: -4354414209259041050
+    second: Animation Ball_264
+  - first:
+      213: -8615484816094737108
+    second: Animation Ball_265
+  - first:
+      213: -5069608144496135555
+    second: Animation Ball_266
+  - first:
+      213: -1913611049797623691
+    second: Animation Ball_267
+  - first:
+      213: 5636560067438159598
+    second: Animation Ball_268
+  - first:
+      213: 6666928215736978357
+    second: Animation Ball_269
+  - first:
+      213: -9190854965581585445
+    second: Animation Ball_270
+  - first:
+      213: -6499233644975540319
+    second: Animation Ball_271
+  - first:
+      213: 2959371896324725938
+    second: Animation Ball_272
+  - first:
+      213: -1385693587272052799
+    second: Animation Ball_273
+  - first:
+      213: 7799437625503723467
+    second: Animation Ball_274
+  - first:
+      213: 5346036396448950524
+    second: Animation Ball_275
+  - first:
+      213: 2713026283699144939
+    second: Animation Ball_276
+  - first:
+      213: -740531658906527248
+    second: Animation Ball_277
+  - first:
+      213: 8460280100300891603
+    second: Animation Ball_278
+  - first:
+      213: -2146305380345814045
+    second: Animation Ball_279
+  - first:
+      213: -8729234404285856571
+    second: Animation Ball_280
+  - first:
+      213: 412829677125614637
+    second: Animation Ball_281
+  - first:
+      213: 911973229688867115
+    second: Animation Ball_282
+  - first:
+      213: 5816225562932785888
+    second: Animation Ball_283
+  - first:
+      213: -5799314165819571914
+    second: Animation Ball_284
+  - first:
+      213: 3134547739591674545
+    second: Animation Ball_285
+  - first:
+      213: -3565683891774131729
+    second: Animation Ball_286
+  - first:
+      213: -4158369450485175063
+    second: Animation Ball_287
+  - first:
+      213: 3092942415478594101
+    second: Animation Ball_288
+  - first:
+      213: -8038014643260324244
+    second: Animation Ball_289
+  - first:
+      213: 6259768205263149726
+    second: Animation Ball_290
+  - first:
+      213: -3681373069868547626
+    second: Animation Ball_291
+  - first:
+      213: 7078673824766667176
+    second: Animation Ball_292
+  - first:
+      213: -8994173535725960556
+    second: Animation Ball_293
+  - first:
+      213: -7855543555655738748
+    second: Animation Ball_294
+  - first:
+      213: -5603813720595055532
+    second: Animation Ball_295
+  - first:
+      213: -7539687494442402798
+    second: Animation Ball_296
+  - first:
+      213: -1569939949830373332
+    second: Animation Ball_297
+  - first:
+      213: -4340531435626059844
+    second: Animation Ball_298
+  - first:
+      213: -1152595427615573997
+    second: Animation Ball_299
+  - first:
+      213: -4073785192746056662
+    second: Animation Ball_300
+  - first:
+      213: -502859281386032231
+    second: Animation Ball_301
+  - first:
+      213: 4573155413191068241
+    second: Animation Ball_302
+  - first:
+      213: 7084249527121798865
+    second: Animation Ball_303
+  - first:
+      213: 8177692785658183519
+    second: Animation Ball_304
+  - first:
+      213: 3014250083064838221
+    second: Animation Ball_305
+  - first:
+      213: -6645784089156609110
+    second: Animation Ball_306
+  - first:
+      213: 5595694328271425201
+    second: Animation Ball_307
+  - first:
+      213: 8257147366510773860
+    second: Animation Ball_308
+  - first:
+      213: 4521203095436396784
+    second: Animation Ball_309
+  - first:
+      213: -1611530769550182492
+    second: Animation Ball_310
+  - first:
+      213: 5869745378202517090
+    second: Animation Ball_311
+  - first:
+      213: -5199487076216641006
+    second: Animation Ball_312
+  - first:
+      213: 3724877709204107191
+    second: Animation Ball_313
+  - first:
+      213: -4171827330588273110
+    second: Animation Ball_314
+  - first:
+      213: -8355209287263621853
+    second: Animation Ball_315
+  - first:
+      213: 8283982382835383327
+    second: Animation Ball_316
+  - first:
+      213: -8931155881242330291
+    second: Animation Ball_317
+  - first:
+      213: 727068422959251818
+    second: Animation Ball_318
+  - first:
+      213: 933020954433360833
+    second: Animation Ball_319
+  - first:
+      213: -3019537468607500600
+    second: Animation Ball_320
+  - first:
+      213: 3410414586086653122
+    second: Animation Ball_321
+  - first:
+      213: -1940343503973354390
+    second: Animation Ball_322
+  - first:
+      213: -2234397889931765707
+    second: Animation Ball_323
+  - first:
+      213: 8822887270271604360
+    second: Animation Ball_324
+  - first:
+      213: -2930479812643009933
+    second: Animation Ball_325
+  - first:
+      213: -6688942608353192392
+    second: Animation Ball_326
+  - first:
+      213: -7297549396779992359
+    second: Animation Ball_327
+  - first:
+      213: 1853478416463869216
+    second: Animation Ball_328
+  - first:
+      213: -5060765426145180900
+    second: Animation Ball_329
+  - first:
+      213: 4782433169050487355
+    second: Animation Ball_330
+  - first:
+      213: -6993967119376049936
+    second: Animation Ball_331
+  - first:
+      213: -1888810664087114112
+    second: Animation Ball_332
+  - first:
+      213: 4151102129712536328
+    second: Animation Ball_333
+  - first:
+      213: -3622890646886017927
+    second: Animation Ball_334
+  - first:
+      213: 7757389390460560898
+    second: Animation Ball_335
+  - first:
+      213: -4128757085245988786
+    second: Animation Ball_336
+  - first:
+      213: 5028594543814560265
+    second: Animation Ball_337
+  - first:
+      213: -1962040722007065016
+    second: Animation Ball_338
+  - first:
+      213: 6816554612409721303
+    second: Animation Ball_339
+  - first:
+      213: -7541822985944794542
+    second: Animation Ball_340
+  - first:
+      213: -7556491777285773042
+    second: Animation Ball_341
+  - first:
+      213: -461253768850014382
+    second: Animation Ball_342
+  - first:
+      213: -7961900926740627520
+    second: Animation Ball_343
+  - first:
+      213: -3885694738081421253
+    second: Animation Ball_344
+  - first:
+      213: 6103069278593185195
+    second: Animation Ball_345
+  - first:
+      213: 6859285198192477396
+    second: Animation Ball_346
+  - first:
+      213: -7268724356939849836
+    second: Animation Ball_347
+  - first:
+      213: 8008067003616300833
+    second: Animation Ball_348
+  - first:
+      213: -5698290799824135519
+    second: Animation Ball_349
+  - first:
+      213: 1375230739977209393
+    second: Animation Ball_350
+  - first:
+      213: 7646179011241209813
+    second: Animation Ball_351
+  - first:
+      213: 8647000066066659318
+    second: Animation Ball_352
+  - first:
+      213: -1792197622378689703
+    second: Animation Ball_353
+  - first:
+      213: -2733897989463920133
+    second: Animation Ball_354
+  - first:
+      213: -1507302755217003160
+    second: Animation Ball_355
+  - first:
+      213: -8214073240630054288
+    second: Animation Ball_356
+  - first:
+      213: 7325821702463544745
+    second: Animation Ball_357
+  - first:
+      213: -5317343638183982221
+    second: Animation Ball_358
+  - first:
+      213: -3564615828606644628
+    second: Animation Ball_359
+  - first:
+      213: -409402419267532964
+    second: Animation Ball_360
+  - first:
+      213: -600627204638233641
+    second: Animation Ball_361
+  - first:
+      213: -6902026388854999092
+    second: Animation Ball_362
+  - first:
+      213: -6128567176041551304
+    second: Animation Ball_363
+  - first:
+      213: 4968408259856108840
+    second: Animation Ball_364
+  - first:
+      213: 1508327369021619867
+    second: Animation Ball_365
+  - first:
+      213: 4788198996778916164
+    second: Animation Ball_366
+  - first:
+      213: -6203903137287654025
+    second: Animation Ball_367
+  - first:
+      213: 3447065824626761245
+    second: Animation Ball_368
+  - first:
+      213: -6824456664506652777
+    second: Animation Ball_369
+  - first:
+      213: -3703577104377322979
+    second: Animation Ball_370
+  - first:
+      213: 2535802920248470409
+    second: Animation Ball_371
+  - first:
+      213: -7558921807539180280
+    second: Animation Ball_372
+  - first:
+      213: 49190364673344974
+    second: Animation Ball_373
+  - first:
+      213: 9077481075820124272
+    second: Animation Ball_374
+  - first:
+      213: 7880013215924341596
+    second: Animation Ball_375
+  - first:
+      213: 739649053868319460
+    second: Animation Ball_376
+  - first:
+      213: -4748856405590795058
+    second: Animation Ball_377
+  - first:
+      213: -6853158882776502484
+    second: Animation Ball_378
+  - first:
+      213: -3574543356443949582
+    second: Animation Ball_379
+  - first:
+      213: -6435284210988569964
+    second: Animation Ball_380
+  - first:
+      213: 7631737897865174817
+    second: Animation Ball_381
+  - first:
+      213: 1566359655712570055
+    second: Animation Ball_382
+  - first:
+      213: 3017528908099767090
+    second: Animation Ball_383
+  - first:
+      213: 5805169855340592627
+    second: Animation Ball_384
+  - first:
+      213: 8560186538523642127
+    second: Animation Ball_385
+  - first:
+      213: 2456458669725920625
+    second: Animation Ball_386
+  - first:
+      213: -2402353080147479440
+    second: Animation Ball_387
+  - first:
+      213: -5499963200633490363
+    second: Animation Ball_388
+  - first:
+      213: -8703395267528895988
+    second: Animation Ball_389
+  - first:
+      213: 7163753402686982292
+    second: Animation Ball_390
+  - first:
+      213: 2269398220512689816
+    second: Animation Ball_391
+  - first:
+      213: -7181244079992413448
+    second: Animation Ball_392
+  - first:
+      213: 7858821748445987057
+    second: Animation Ball_393
+  - first:
+      213: -6135470218594415
+    second: Animation Ball_394
+  - first:
+      213: -1706793496112373296
+    second: Animation Ball_395
+  - first:
+      213: -2400911961553985729
+    second: Animation Ball_396
+  - first:
+      213: -8340573403980652603
+    second: Animation Ball_397
+  - first:
+      213: 5053710302015903435
+    second: Animation Ball_398
+  - first:
+      213: -3167318306382118644
+    second: Animation Ball_399
+  - first:
+      213: -5719131226711455894
+    second: Animation Ball_400
+  - first:
+      213: -5975176764752750480
+    second: Animation Ball_401
+  - first:
+      213: 5782039821776562746
+    second: Animation Ball_402
+  - first:
+      213: 4847114142040388218
+    second: Animation Ball_403
+  - first:
+      213: 3916611431711951794
+    second: Animation Ball_404
+  - first:
+      213: 53384683877457739
+    second: Animation Ball_405
+  - first:
+      213: -5409097761219392556
+    second: Animation Ball_406
+  - first:
+      213: 8923391890859180205
+    second: Animation Ball_407
+  - first:
+      213: 5669317194196216641
+    second: Animation Ball_408
+  - first:
+      213: 4533904354238471780
+    second: Animation Ball_409
+  - first:
+      213: 1571978492687090938
+    second: Animation Ball_410
+  - first:
+      213: 8258848219975135907
+    second: Animation Ball_411
+  - first:
+      213: -3257225235995396239
+    second: Animation Ball_412
+  - first:
+      213: 5445999015359358842
+    second: Animation Ball_413
+  - first:
+      213: -569510142946997056
+    second: Animation Ball_414
+  - first:
+      213: 3874586529559996133
+    second: Animation Ball_415
+  - first:
+      213: -7659781542947271545
+    second: Animation Ball_416
+  - first:
+      213: -2217480913709372754
+    second: Animation Ball_417
+  - first:
+      213: 4314687779285727543
+    second: Animation Ball_418
+  - first:
+      213: -9165662366722360476
+    second: Animation Ball_419
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animation Ball_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3b7314892366da0800000000000000
+      internalID: -5952014228012944407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animation Ball_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01f1e6779cc633b0800000000000000
+      internalID: -5533010141271428852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animation Ball_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efc40a2fe13dfb10800000000000000
+      internalID: 2016823111403753447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animation Ball_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0708f6bdfaf44efe0800000000000000
+      internalID: -1160715187235356560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animation Ball_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7b51735203ed070800000000000000
+      internalID: 8132990913473787861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animation Ball_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6686125667ab54e00800000000000000
+      internalID: 1028433107589621862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animation Ball_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bd206ea8a88b9f0800000000000000
+      internalID: -452459433381668057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animation Ball_7
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 0
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ba41d656e43e870800000000000000
+      internalID: 8710892301793405712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animation Ball_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55f82058a585e790800000000000000
+      internalID: -7501442646369831587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animation Ball_9
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d0c225bd284df20800000000000000
+      internalID: 3446523493333339392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
