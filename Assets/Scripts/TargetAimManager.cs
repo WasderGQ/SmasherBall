@@ -6,10 +6,13 @@ public class TargetAimManager : MonoBehaviour
 {
     GameObject ball;
     public Vector3 TargetAimPosition;
+    private GameObject _aimIconPrefabs;
+    private GameObject _cloneIcon;
+
     private void Awake()
     {
-        GameManager.targetAimManager = this;
-        ball = GameObject.Find("Ball");
+        VariableManager.targetAimManager = this;
+        _aimIconPrefabs = Resources.Load<GameObject>("Prefabs/AimTarget");
 
     }
 
@@ -17,25 +20,40 @@ public class TargetAimManager : MonoBehaviour
 
     private void Update()
     {
-        refreshtotargetaim();
+        RefreshAimAngle();
 
 
     }
 
-
-void refreshtotargetaim()
+    public void InstantiateAimTarget()
     {
-
-        if (GameManager.math.ReversinputsLocationLine.y >= 0)
+        if(VariableManager.gameCheckerCollider.IsReadyToThrow == true)
         {
-            TargetAimPosition = new Vector3(GameManager.math.ReversinputsLocationLine.x + ball.transform.position.x, GameManager.math.ReversinputsLocationLine.y + ball.transform.position.y, GameManager.math.ReversinputsLocationLine.z);
-            this.gameObject.transform.position = TargetAimPosition;
+
+            _cloneIcon = Object.Instantiate<GameObject>(_aimIconPrefabs, VariableManager.gameCheckerCollider.FirstBallLocationOnGameCheckerCollider.position, Quaternion.identity);
 
         }
 
     }
 
 
+    public void RefreshAimAngle()
+    {
+        if(_cloneIcon != null)
+        {
+            _cloneIcon.transform.rotation = Quaternion.Euler(0, 0, VariableManager.math.VectorBetwenTwoPoint.w);
+
+        }
+
+
+
+
+    }
+
+    public void DestroyAimTarget()
+    {
+        Destroy(_cloneIcon);
+    }
 
 
 

@@ -4,36 +4,85 @@ using UnityEngine;
 
 public class Math : MonoBehaviour
 {
-    public Vector4 ReversinputsLocationLine;
-    public Vector4 InputsLocationLine;
-    
+    public Vector4 VectorBetwenTwoPoint;
+    public Vector2 VelocityUnitVector;
+    private float RadiusToAngle = 180 / 3.14159265358979323846f;
+    private float AngleBetweenTwoPoints;
+    private float AngleToRadius = 3.14159265358979323846f / 180;
+
+
     private void Awake()
     {
-        GameManager.math = this;
+        
+        
+        VariableManager.math = this;
     }
 
-    public void FindSightDirection()
+
+
+    public void FindAngleBetweenTwoPoints()
     {
+        
 
        
 
+             if (VariableManager.controllerManager.FirstMousePosition.y > VariableManager.controllerManager.SecondMousePosition.y)
+            {
+                VectorBetwenTwoPoint.x = VariableManager.controllerManager.FirstMousePosition.x - VariableManager.controllerManager.SecondMousePosition.x;
+                VectorBetwenTwoPoint.y = VariableManager.controllerManager.FirstMousePosition.y - VariableManager.controllerManager.SecondMousePosition.y;
+                AngleBetweenTwoPoints = Mathf.Atan(VectorBetwenTwoPoint.x / VectorBetwenTwoPoint.y) * RadiusToAngle;
+
+
+                if (AngleBetweenTwoPoints < 0)
+                {
+
+                    AngleBetweenTwoPoints = AngleBetweenTwoPoints + 90;
+                    AngleBetweenTwoPoints = 180 - AngleBetweenTwoPoints;
+                }
+                else if (AngleBetweenTwoPoints > 0)
+                {
+
+                    AngleBetweenTwoPoints = 90 - AngleBetweenTwoPoints;
+
+                }
+                else if (AngleBetweenTwoPoints == 0)
+                {
+                    AngleBetweenTwoPoints = 90;
+                }
+
+                VectorBetwenTwoPoint.z = 0;
+                VectorBetwenTwoPoint.w = AngleBetweenTwoPoints;
+
+                
+
+            }
 
 
 
-        ReversinputsLocationLine.x = GameManager.controllerManager.FirstMousePosition.x - GameManager.controllerManager.SecondMousePosition.x; 
-        ReversinputsLocationLine.y = GameManager.controllerManager.FirstMousePosition.y - GameManager.controllerManager.SecondMousePosition.y;
-        float Newvectorlenght = Mathf.Sqrt(ReversinputsLocationLine.x * ReversinputsLocationLine.x + ReversinputsLocationLine.y * ReversinputsLocationLine.y) ;
-        ReversinputsLocationLine.w = Mathf.Acos(ReversinputsLocationLine.x / Newvectorlenght) * 57.2957795f;
-        InputsLocationLine.x = ReversinputsLocationLine.x * -1;
-        InputsLocationLine.y = ReversinputsLocationLine.y * -1;
-
-
-
+       
     }
 
 
 
 
+
+
+    public void FindAimAngleUnitVector()
+    {
+        
+            VelocityUnitVector.y = Mathf.Sin(AngleBetweenTwoPoints * AngleToRadius);
+            VelocityUnitVector.x = Mathf.Cos(AngleBetweenTwoPoints * AngleToRadius);
+ 
+
+    }
+            
+            
+            
+            
+           
+
+
+   
 
 
 }

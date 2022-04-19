@@ -7,11 +7,12 @@ public class ControllerManager : MonoBehaviour
     //Touch _touch; touch mekaniðini mousede çalýþtýramadým bu yüzden vazgeçtim
     public Vector3 FirstMousePosition;
     public Vector3 SecondMousePosition;
-    public bool _IsPressedMouse;
+    public bool IsPressedMouse;
     private bool IsMouseOnGameObject;
+    
     private void Awake()
     {
-      GameManager.controllerManager = this;
+      VariableManager.controllerManager = this;
     }
 
     void Start()
@@ -23,7 +24,7 @@ public class ControllerManager : MonoBehaviour
 
     void Update()
     {
-        MousePositionFinder();
+        MousePositionFinderAndClickChecker();
         MouseOnUIChecker();
 
 
@@ -33,69 +34,50 @@ public class ControllerManager : MonoBehaviour
 
 
 
-    void MousePositionFinder()
+    void MousePositionFinderAndClickChecker()
     {
-        if (Input.GetMouseButtonDown(0) && IsMouseOnGameObject)
+        if(Input.GetMouseButtonDown(0) && IsMouseOnGameObject) // tuþa bastýðýnda
         {
             FirstMousePosition = Input.mousePosition;
-            _IsPressedMouse = true;
-            //Debug.Log(FirstMousePosition);
+            IsPressedMouse = true;
+            VariableManager.targetAimManager.InstantiateAimTarget();
         }
 
-        if (Input.GetMouseButtonUp(0) && IsMouseOnGameObject)
+        if(Input.GetMouseButtonUp(0) && IsMouseOnGameObject) //tuþtan elini kaldýrdýðýnda
         {
-            _IsPressedMouse = false;
-            GameManager.ballThrowManager.throwaball();
-
+            IsPressedMouse = false;
+            VariableManager.targetAimManager.DestroyAimTarget();
+            VariableManager.math.FindAimAngleUnitVector();
+            VariableManager.ballThrowManager.ThrowABall();
 
         }
 
-        if(_IsPressedMouse == true)
+        if(IsPressedMouse == true)//basýlý tutulduðu sürece
         {
             SecondMousePosition = Input.mousePosition;
-            GameManager.math.FindSightDirection();
-            //Debug.Log(SecondMousePosition);
-           // Debug.Log(GameManager.math.ReversinputsLocationLine);
+            VariableManager.math.FindAngleBetweenTwoPoints();
+            VariableManager.targetAimManager.RefreshAimAngle();
         }
 
     }
 
-    void MouseOnUIChecker()
+    void MouseOnUIChecker()//UI üzerinde ise maouse hareketlerini çalýþtýrma
     {
 
         IsMouseOnGameObject = EventSystem.current.currentSelectedGameObject == null;
-        Debug.Log(IsMouseOnGameObject);
-    }
-
-
-
-
-
-
-
-
-
-
-   /* void TouchPositionFinder()
-    {
-    if (Input.touchCount > 0)
-        {
-        testobject.SetActive(true);
-        _touch = Input.GetTouch(0);
        
-        }
-    else
-         {
-        testobject.SetActive(false);
-
-
-         }
-
-
-
     }
-   *///bu sistemi kullanamadým daha sonra öðrenirim belki !!!!
 
+
+
+
+
+
+
+
+
+
+   
 
 }
 

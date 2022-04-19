@@ -4,33 +4,30 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager gameManager;
-    public static ControllerManager controllerManager;
-    public static Math math;
-    public static BallManager ballManager;
-    public static TargetAimManager targetAimManager;
-    public static BallThrowManager ballThrowManager;
+
+    public int TempLevelHolder;
+    public int ThrowSpeed;
     private void Awake()
     {
-        
+        VariableManager.gameManager = this;
+    }
+    private void Start()
+    {
+      TempLevelHolder = VariableManager.valueHolder.Level;
     }
 
 
 
 
 
-
-
-
-
-    void Start()
+    public void LevelUpCounter()
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
         
+
+            TempLevelHolder++;
+
+        
+
     }
 }
