@@ -13,6 +13,8 @@ public class VariableManager : MonoBehaviour
     public static GameCheckerCollider gameCheckerCollider;
     public static ValueHolder valueHolder;
     public static Timer timer;
+    public static BoxManager boxManager;
+    public static ResolutionManager resolutionManager;
     private void Start()
     {
         

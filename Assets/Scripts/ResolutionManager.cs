@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ResolationManager : MonoBehaviour
+public class ResolutionManager : MonoBehaviour
 {
     Resolution[] resolutions;
    public int ResWidth;
@@ -15,6 +15,7 @@ private void Awake()
     {
         resolutions  = Screen.resolutions;
         FixBackGroundResolation();
+        VariableManager.resolutionManager = this;
     }
 
     void Start()
