@@ -7,13 +7,18 @@ public class GameManager : MonoBehaviour
 
     public int TempLevelHolder;
     public int ThrowSpeed;
+    
+    
+    
     private void Awake()
     {
         VariableManager.gameManager = this;
-    }
-    private void Start()
+      
+        
+    } void Start()
     {
-      TempLevelHolder = VariableManager.valueHolder.Level;
+     //
+     //TempLevelHolder = VariableManager.valueHolder.Level;
     }
 
 
