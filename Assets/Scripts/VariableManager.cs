@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
-public class VariableManager : MonoBehaviour
+
+public class VariableManager 
 {
     public static GameManager gameManager;
     public static ControllerManager controllerManager;
@@ -15,10 +15,22 @@ public class VariableManager : MonoBehaviour
     public static Timer timer;
     public static BoxManager boxManager;
     public static ResolutionManager resolutionManager;
-    private void Start()
-    {
-        
-    }
+    public static BoxPositions BoxSpawnPositions;
+
+
+
+}
+
+
+public struct BoxPositions
+{
+
+    public float FirstPosition;
+    public float SecondPosition;
+    public float ThirdPosition;
+    public float FourthPosition;
+    public float FifthPosition;
+    public float SixthPosition;
 
 
 }

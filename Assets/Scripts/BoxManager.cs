@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class BoxManager : MonoBehaviour
 {
+    
 
     private void Awake()
     {
         VariableManager.boxManager = this;
+       
     }
 
     void Start()
     {
-        
+       
     }
 
     
@@ -20,22 +22,6 @@ public class BoxManager : MonoBehaviour
     {
         
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -63,3 +49,5 @@ public class BoxManager : MonoBehaviour
 
 
 }
+
+

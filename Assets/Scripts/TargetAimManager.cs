@@ -6,7 +6,7 @@ public class TargetAimManager : MonoBehaviour
 {
     GameObject ball;
     public Vector3 TargetAimPosition;
-    private GameObject _aimIconPrefabs;
+    [SerializeField] private GameObject _aimIconPrefabs;
     private GameObject _cloneIcon;
 
     private void Awake()
