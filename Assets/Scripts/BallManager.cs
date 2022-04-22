@@ -38,7 +38,7 @@ public class BallManager : MonoBehaviour
 public void BallIntantiate(Vector3 SpawnLocation)
     {
         
-        CloneBall[CloneBallArrayIndex] = Instantiate<GameObject>(_prefabBall ,SpawnLocation, Quaternion.identity);
+        CloneBall[CloneBallArrayIndex] = Instantiate<GameObject>(_prefabBall ,SpawnLocation, Quaternion.identity,VariableManager.resolutionManager.Game_Canvas.transform);
         RDBall[CloneBallArrayIndex] = CloneBall[CloneBallArrayIndex].GetComponent<Rigidbody2D>();
         CloneBall[CloneBallArrayIndex].gameObject.GetComponent<Ball>().ID = CloneBallArrayIndex;
         CloneBallArrayIndex++;

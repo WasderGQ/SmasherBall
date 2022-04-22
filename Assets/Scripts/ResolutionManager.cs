@@ -4,30 +4,32 @@ using UnityEngine;
 
 public class ResolutionManager : MonoBehaviour
 {
-    Resolution[] resolutions;
-   public int ScreenResolationWidth;
-   public int ScreenResolationHeight;
+   private Resolution[] resolutions;
+   private int ScreenResolationWidth;
+   private int ScreenResolationHeight;
    Vector3 GameCanvasLocalScale;
-   public Vector2 NewSizeOfBox;
-    public Vector2 NormalSizeRatio;
+   private Vector2 NewSizeOfBox;
+   private Vector2 NormalSizeRatio;
+   public GameObject Game_Canvas;
 private void Awake()
     {
+        Game_Canvas = GameObject.Find("Game_Canvas");
         VariableManager.resolutionManager = this;
      
     }
 
     void Start()
     {
-        GameCanvasLocalScale = GameObject.Find("Game_Canvas").GetComponent<RectTransform>().localScale;
+        GameCanvasLocalScale = Game_Canvas.GetComponent<RectTransform>().localScale;
       
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
     }
-
+    // bu dizenin altýndaki bütün kodlar rafa kaldýrýlmýþtýr.
     /*
 
     void FixBackGroundResolation()
