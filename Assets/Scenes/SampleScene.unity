@@ -1734,6 +1734,8 @@ MonoBehaviour:
   CloneBall: []
   RDBall: []
   CloneBallArrayIndex: 0
+  SpawnDistanceForNewBall: 2
+  FirstBallPositionHolder: {x: 0, y: 0, z: 0}
 --- !u!114 &1085555481
 MonoBehaviour:
   m_ObjectHideFlags: 0

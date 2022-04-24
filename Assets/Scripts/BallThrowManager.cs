@@ -9,31 +9,30 @@ public class BallThrowManager : MonoBehaviour
         VariableManager.ballThrowManager = this;
     }
 
-
-    public void ThrowABall()
+    private void Update()
     {
-       
         
-        if(VariableManager.gameCheckerCollider.IsReadyToThrow == true)
+    }
+
+    public void FirstBallThrow()
+    {
+        if (VariableManager.gameCheckerCollider.IsReadyToThrow == true)
         {
-
-            for (int index = 0; index <= VariableManager.ballManager.CloneBallArrayIndex; index++)
-            {
-                if (VariableManager.ballManager.RDBall[index] != null)
-                {
-
-                    VariableManager.ballManager.RDBall[index].velocity = VariableManager.math.VelocityUnitVector * VariableManager.gameManager.ThrowSpeed;
-                    VariableManager.timer.AmIStart = true;
-                    if(VariableManager.timer.IsTimerOver == true)
-                    {
-                        VariableManager.ballManager.BallIntantiate(VariableManager.gameCheckerCollider.FirstBallLocationOnGameCheckerCollider.position);
-
-                    }
-                }
-
-            }
-
+        VariableManager.ballManager.RDBall[0].velocity = VariableManager.math.VelocityUnitVector * VariableManager.gameManager.ThrowSpeed;
         }
+           
+    }
+    
+    
+    
+    
+    
+    
+    
+    public void ThrowABall()
+    {      
+                   VariableManager.ballManager.RDBall[VariableManager.ballManager.CloneBallArrayIndex].velocity = VariableManager.math.VelocityUnitVector * VariableManager.gameManager.ThrowSpeed;
+    }
 
   
        
@@ -42,4 +41,4 @@ public class BallThrowManager : MonoBehaviour
 
 
    
-}
+

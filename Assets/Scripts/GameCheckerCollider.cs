@@ -94,7 +94,7 @@ public class GameCheckerCollider : MonoBehaviour
 
     void IsReadyToThrowABallChecker()
     {
-        if (VariableManager.ballManager.CloneBallArrayIndex == HowMuchBallHoldingInsideGameCheckerCollider)
+        if (VariableManager.gameManager.TempLevelHolder == HowMuchBallHoldingInsideGameCheckerCollider)
         {
             IsReadyToThrow = true;
 
@@ -121,8 +121,8 @@ public class GameCheckerCollider : MonoBehaviour
         if (OnCollisionEnterObject.gameObject.GetComponent<Ball>().ID == 0)
         {
             FirstBallLocationOnGameCheckerCollider = OnCollisionEnterObject.transform;
-
-
+            
+           
         }
 
 

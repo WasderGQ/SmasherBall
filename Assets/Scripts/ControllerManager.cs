@@ -48,7 +48,7 @@ public class ControllerManager : MonoBehaviour
             IsPressedMouse = false;
             VariableManager.targetAimManager.DestroyAimTarget();
             VariableManager.math.FindAimAngleUnitVector();
-            VariableManager.ballThrowManager.ThrowABall();
+            VariableManager.ballThrowManager.FirstBallThrow();
 
         }
 
