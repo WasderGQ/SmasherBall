@@ -168,8 +168,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +187,10 @@ TextureImporter:
       name: Animation_1
       rect:
         serializedVersion: 2
-        x: 54
+        x: 65
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,10 +208,10 @@ TextureImporter:
       name: Animation_2
       rect:
         serializedVersion: 2
-        x: 108
+        x: 130
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,10 +229,10 @@ TextureImporter:
       name: Animation_3
       rect:
         serializedVersion: 2
-        x: 162
+        x: 195
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +250,10 @@ TextureImporter:
       name: Animation_4
       rect:
         serializedVersion: 2
-        x: 216
+        x: 260
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,10 +271,10 @@ TextureImporter:
       name: Animation_5
       rect:
         serializedVersion: 2
-        x: 270
+        x: 325
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: Animation_6
       rect:
         serializedVersion: 2
-        x: 324
+        x: 390
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,10 +313,10 @@ TextureImporter:
       name: Animation_7
       rect:
         serializedVersion: 2
-        x: 378
+        x: 455
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,10 +334,10 @@ TextureImporter:
       name: Animation_8
       rect:
         serializedVersion: 2
-        x: 432
+        x: 520
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,10 +355,10 @@ TextureImporter:
       name: Animation_9
       rect:
         serializedVersion: 2
-        x: 486
+        x: 585
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,10 +376,10 @@ TextureImporter:
       name: Animation_10
       rect:
         serializedVersion: 2
-        x: 540
+        x: 650
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,10 +397,10 @@ TextureImporter:
       name: Animation_11
       rect:
         serializedVersion: 2
-        x: 594
+        x: 715
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,10 +418,10 @@ TextureImporter:
       name: Animation_12
       rect:
         serializedVersion: 2
-        x: 648
+        x: 780
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,10 +439,10 @@ TextureImporter:
       name: Animation_13
       rect:
         serializedVersion: 2
-        x: 702
+        x: 845
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,10 +460,10 @@ TextureImporter:
       name: Animation_14
       rect:
         serializedVersion: 2
-        x: 756
+        x: 910
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,10 +481,10 @@ TextureImporter:
       name: Animation_15
       rect:
         serializedVersion: 2
-        x: 810
+        x: 975
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +502,10 @@ TextureImporter:
       name: Animation_16
       rect:
         serializedVersion: 2
-        x: 864
+        x: 1040
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,10 +523,10 @@ TextureImporter:
       name: Animation_17
       rect:
         serializedVersion: 2
-        x: 918
+        x: 1105
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -544,10 +544,10 @@ TextureImporter:
       name: Animation_18
       rect:
         serializedVersion: 2
-        x: 972
+        x: 1170
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,10 +565,10 @@ TextureImporter:
       name: Animation_19
       rect:
         serializedVersion: 2
-        x: 1026
+        x: 1235
         y: 0
-        width: 54
-        height: 1920
+        width: 65
+        height: 2760
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

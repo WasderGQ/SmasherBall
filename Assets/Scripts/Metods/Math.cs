@@ -79,7 +79,14 @@ public class Math : MonoBehaviour
             
             
             
-           
+    public int RandomNumber(int Minvalue, int Maxvalue)
+    {
+        int tempvalue = Random.Range(Minvalue, Maxvalue);
+        return tempvalue;
+
+
+
+    }
 
 
    
