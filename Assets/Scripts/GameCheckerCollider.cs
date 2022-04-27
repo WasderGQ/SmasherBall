@@ -34,13 +34,16 @@ public class GameCheckerCollider : MonoBehaviour
             collision.gameObject.GetComponent<Ball>().AmIHitTheGameCheckerCollider = true;
             FirstBallPositionChecker();
             BallStopper();
-            VariableManager.gameManager.LevelUpCounter();
-
+            DestroyCloneBalls();
 
 
 
 
         }
+        
+    
+    
+    
     }
 
     
@@ -68,14 +71,15 @@ public class GameCheckerCollider : MonoBehaviour
         {
         collision.gameObject.GetComponent<Ball>().AmIHitTheGameCheckerCollider = false;
         HowMuchBallHoldingInsideGameCheckerCollider--;
-        
-        
-        
-        
-        
-        
-        
-        
+
+
+            
+
+
+
+
+
+
         }
         
      
@@ -97,7 +101,7 @@ public class GameCheckerCollider : MonoBehaviour
         if (VariableManager.gameManager.TempLevelHolder == HowMuchBallHoldingInsideGameCheckerCollider)
         {
             IsReadyToThrow = true;
-
+            
 
         }
 
@@ -137,4 +141,18 @@ public class GameCheckerCollider : MonoBehaviour
     }
 
  
+    void DestroyCloneBalls()
+    {
+
+        if (OnCollisionEnterObject.gameObject.GetComponent<Ball>().ID > 0)
+        {
+            Destroy(OnCollisionEnterObject.gameObject);
+
+
+        }
+
+    }
+
+
+
 }

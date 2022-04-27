@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TargetAimManager : MonoBehaviour
 {
-    GameObject ball;
+    Transform Ball;
     public Vector3 TargetAimPosition;
     [SerializeField] private GameObject _aimIconPrefabs;
     private GameObject _cloneIcon;
@@ -12,8 +12,7 @@ public class TargetAimManager : MonoBehaviour
     private void Awake()
     {
         VariableManager.targetAimManager = this;
-        _aimIconPrefabs = Resources.Load<GameObject>("Prefabs/AimTarget");
-
+        _aimIconPrefabs = Resources.Load<GameObject>("Prefabs/AimTarget");  
     }
 
 
@@ -21,7 +20,7 @@ public class TargetAimManager : MonoBehaviour
     private void Update()
     {
         RefreshAimAngle();
-
+        
 
     }
 
@@ -29,9 +28,7 @@ public class TargetAimManager : MonoBehaviour
     {
         if(VariableManager.gameCheckerCollider.IsReadyToThrow == true)
         {
-
-            _cloneIcon = Object.Instantiate<GameObject>(_aimIconPrefabs, VariableManager.gameCheckerCollider.FirstBallLocationOnGameCheckerCollider.position, Quaternion.identity);
-
+        _cloneIcon = Object.Instantiate<GameObject>(_aimIconPrefabs, VariableManager.gameCheckerCollider.FirstBallLocationOnGameCheckerCollider.position, Quaternion.identity,VariableManager.ballManager.FirstBallTransformHolder);
         }
 
     }
@@ -41,8 +38,7 @@ public class TargetAimManager : MonoBehaviour
     {
         if(_cloneIcon != null)
         {
-            _cloneIcon.transform.rotation = Quaternion.Euler(0, 0, VariableManager.math.VectorBetwenTwoPoint.w);
-
+        _cloneIcon.transform.rotation = Quaternion.Euler(0, 0, VariableManager.math.VectorBetwenTwoPoint.w);
         }
 
 
@@ -56,6 +52,6 @@ public class TargetAimManager : MonoBehaviour
     }
 
 
-
+   
 }
 

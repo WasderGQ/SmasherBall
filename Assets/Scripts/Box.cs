@@ -5,6 +5,7 @@ using UnityEngine;
 public class Box : MonoBehaviour
 {
     public int ID;
+    public int Health;
     void Start()
     {
         

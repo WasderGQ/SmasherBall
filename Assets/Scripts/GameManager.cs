@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
         
     } void Start()
     {
+        LevelCounterFixer();
+
      //
      //TempLevelHolder = VariableManager.valueHolder.Level;
     }
@@ -35,4 +37,18 @@ public class GameManager : MonoBehaviour
         
 
     }
+
+    public void LevelCounterFixer()
+    {
+        if(TempLevelHolder == 0)
+        {
+            TempLevelHolder = 1;
+
+        }
+
+
+
+    }
+
+
 }

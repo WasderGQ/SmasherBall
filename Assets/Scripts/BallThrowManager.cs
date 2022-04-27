@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BallThrowManager : MonoBehaviour
 {
+    public bool CanIThrowCloneBalls;
     private void Awake()
     {
         VariableManager.ballThrowManager = this;
@@ -14,25 +15,49 @@ public class BallThrowManager : MonoBehaviour
         
     }
 
-    public void FirstBallThrow()
+    public void ThrowFirstBall()
     {
         if (VariableManager.gameCheckerCollider.IsReadyToThrow == true)
         {
-        VariableManager.ballManager.RDBall[0].velocity = VariableManager.math.VelocityUnitVector * VariableManager.gameManager.ThrowSpeed;
+            VariableManager.ballManager.RDBall[0].velocity = VariableManager.math.VelocityUnitVector * VariableManager.gameManager.ThrowSpeed;
+            CanIThrowCloneBalls = true;
         }
            
     }
     
     
-    
-    
-    
-    
-    
-    public void ThrowABall()
-    {      
-                   VariableManager.ballManager.RDBall[VariableManager.ballManager.CloneBallArrayIndex].velocity = VariableManager.math.VelocityUnitVector * VariableManager.gameManager.ThrowSpeed;
+    public void OtoThrowBall()
+    {
+        if(CanIThrowCloneBalls)
+        {
+            if(VariableManager.ballManager.CanIThrowNextBall)
+            {
+                VariableManager.ballManager.BallSpawn(VariableManager.gameCheckerCollider.FirstBallLocationOnGameCheckerCollider.position);
+
+                SingleBallThrow();
+
+
+
+            }
+
+
+        }
+
+
+
+
     }
+    
+    public void SingleBallThrow()
+    {
+
+        VariableManager.ballManager.RDBall[VariableManager.ballManager.CloneBallArrayIndex].velocity = VariableManager.math.VelocityUnitVector * VariableManager.gameManager.ThrowSpeed;
+        
+
+    }
+    
+    
+    
 
   
        

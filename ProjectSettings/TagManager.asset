@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ball
   - GameCheckerCollider
+  - Box
   layers:
   - Default
   - TransparentFX

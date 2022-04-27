@@ -10,7 +10,12 @@ public class BallManager : MonoBehaviour
     GameObject _prefabBall;
     Transform StartBallArea;
     public int SpawnDistanceForNewBall;
-    public Vector3 FirstBallPositionHolder;
+    public Transform FirstBallTransformHolder;
+    public bool CanIThrowNextBall;
+    Transform t_GameCheckerCollider; 
+
+
+
 
     private void Awake()
     {
@@ -19,7 +24,7 @@ public class BallManager : MonoBehaviour
         VariableManager.ballManager = this;
         _prefabBall = Resources.Load<GameObject>("Prefabs/Ball");
         StartBallArea = GameObject.Find("FirstStartZone").transform;
-        
+        t_GameCheckerCollider = GameObject.Find("Down - GameSpaceLimit").GetComponent<Transform>();
 
     }
 
@@ -31,63 +36,106 @@ public class BallManager : MonoBehaviour
     
     void Update()
     {
-        FirstBallPositionTracker();
-        RepeatSpawn(CloneBall[CloneBallArrayIndex].transform.position);
+        FirstBallTransformTracker();
+        BallSpawnCheckPoint();
+        CanIThrowCloneBallsChecker();
     }
 
 
 
-public void FirtBallSpawn(Vector3 SpawnLocation)
+    public void FirtBallSpawn(Vector3 SpawnLocation)
     {
-        if(AmISpawnFirstBall())
+        if (CloneBall[0]==null)
         {
             CloneBall[0] = Instantiate<GameObject>(_prefabBall, SpawnLocation, Quaternion.identity, VariableManager.resolutionManager.Game_Canvas.transform);
             RDBall[0] = CloneBall[0].GetComponent<Rigidbody2D>();
             CloneBall[0].gameObject.GetComponent<Ball>().ID = 0;
+            
         }
-        
+    
          
     }
-
-
-    public bool AmISpawnFirstBall()
-    {
-        if(CloneBall[0] == null)
-        {
-            return true;
-
-
-        }
-        else
-        {
-            return false;
-
-        }
-
-
-    }
-
-    public void FirstBallPositionTracker()
-    {
-        if(CloneBall[0] != null)
-        {
-        FirstBallPositionHolder = CloneBall[0].transform.position;
-        Debug.Log(FirstBallPositionHolder); //*consolda bulunduðu konum kordinatlarýný almýþ olursun*
-        }
-        
-
-
-    }
-
-
 
     public void BallSpawn(Vector3 SpawnLocation)
     {     
     CloneBall[CloneBallArrayIndex] = Instantiate<GameObject>(_prefabBall, SpawnLocation, Quaternion.identity, VariableManager.resolutionManager.Game_Canvas.transform);
     RDBall[CloneBallArrayIndex] = CloneBall[CloneBallArrayIndex].GetComponent<Rigidbody2D>();
-    CloneBall[CloneBallArrayIndex].gameObject.GetComponent<Ball>().ID = CloneBallArrayIndex;  
+    CloneBall[CloneBallArrayIndex].gameObject.GetComponent<Ball>().ID = CloneBallArrayIndex;
+    
     }
 
+   
+    
+    
+    
+    public void FirstBallTransformTracker()
+    {
+        if (CloneBall[0] != null)
+        {
+            FirstBallTransformHolder = CloneBall[0].transform;
+
+        }
+    }
+
+
+
+    public void BallSpawnCheckPoint()
+    {
+        if (CloneBall[CloneBallArrayIndex] != null)
+        {
+            if (CloneBall[CloneBallArrayIndex].transform.position.y >= t_GameCheckerCollider.position.y + 2)
+            {
+
+                CanIThrowNextBall = true;
+                CloneBallArrayIndex++;
+                Debug.Log(CanIThrowNextBall);
+                VariableManager.gameManager.LevelUpCounter();
+
+            }
+            else
+            {
+
+                CanIThrowNextBall = false;
+
+            }
+
+        }
+        
+        
+
+        
+    }
+
+
+    public void CanIThrowCloneBallsChecker()
+    {
+        if(CloneBallArrayIndex == VariableManager.gameManager.TempLevelHolder - 1)
+        {
+            VariableManager.ballThrowManager.CanIThrowCloneBalls = false;
+
+            CloneBallArrayIndex = 1;
+
+
+
+
+
+        }
+
+
+
+
+    }
+
+
 }
+
+
+
+
+
+
+
+
+
 
 
