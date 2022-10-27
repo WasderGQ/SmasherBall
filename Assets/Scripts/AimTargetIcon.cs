@@ -25,7 +25,7 @@ public class AimTargetIcon : MonoBehaviour
 
         this.gameObject.transform.position = new Vector3(VariableManager.math.VectorBetwenTwoPoint.x + VariableManager.ballManager.CloneBall[0].transform.position.x, VariableManager.math.VectorBetwenTwoPoint.y + VariableManager.ballManager.CloneBall[0].transform.position.y, VariableManager.math.VectorBetwenTwoPoint.z);
 
-
-
+        
+        
     }
 }

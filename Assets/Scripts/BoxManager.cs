@@ -11,6 +11,7 @@ public class BoxManager : MonoBehaviour
     GameObject _prefabBox;
     int IntimeHowMuchBoxWillSpawn;
     GameObject[] CloneBoxSpawnPositions;
+    int[] EveryLevelSpawnBox
 
     private void Awake()
     {
@@ -34,13 +35,13 @@ public class BoxManager : MonoBehaviour
 
 
 
-    void SpawnBox()
+   /* void SpawnBox()
     {
         HowMuchBox();
         CloneBox[CloneBoxIndex]=Instantiate(_prefabBox,)
 
 
-    }
+    }*/
 
 
 

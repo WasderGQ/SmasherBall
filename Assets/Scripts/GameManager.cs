@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     } void Start()
     {
         LevelCounterFixer();
-
+        Application.targetFrameRate = 240;
      //
      //TempLevelHolder = VariableManager.valueHolder.Level;
     }

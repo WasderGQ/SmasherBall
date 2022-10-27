@@ -19,7 +19,7 @@ public class BallThrowManager : MonoBehaviour
     {
         if (VariableManager.gameCheckerCollider.IsReadyToThrow == true)
         {
-            VariableManager.ballManager.RDBall[0].velocity = VariableManager.math.VelocityUnitVector * VariableManager.gameManager.ThrowSpeed;
+            VariableManager.ballManager.RDBall[0].velocity = VariableManager.math.VelocityUnitVector * VariableManager.gameManager.ThrowSpeed ;
             CanIThrowCloneBalls = true;
         }
            
