@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd72f813b6a424aaf1af8064b381146, type: 3}
+  m_Name: GameParametersAsset
+  m_EditorClassIdentifier: 
+  <GameTableSettings>k__BackingField:
+  - <TableName>k__BackingField: Beginner
+    <EntryFee>k__BackingField: 50
+    <TableReward>k__BackingField: 100
+    <TableRule>k__BackingField: 
+  - <TableName>k__BackingField: Pre-Intermediate
+    <EntryFee>k__BackingField: 100
+    <TableReward>k__BackingField: 200
+    <TableRule>k__BackingField: 
+  - <TableName>k__BackingField: Intermediate
+    <EntryFee>k__BackingField: 500
+    <TableReward>k__BackingField: 1000
+    <TableRule>k__BackingField: 
+  - <TableName>k__BackingField: Upper-Intermediate
+    <EntryFee>k__BackingField: 2500
+    <TableReward>k__BackingField: 5000
+    <TableRule>k__BackingField: 
+  - <TableName>k__BackingField: Advance
+    <EntryFee>k__BackingField: 10000
+    <TableReward>k__BackingField: 20000
+    <TableRule>k__BackingField: 
+  <MainMenuTransitionSettings>k__BackingField:
+    <TransitionTimeBetweenPanels>k__BackingField: 0.5
+  <GameCardMotionSettings>k__BackingField:
+    <ScaleMotionTime>k__BackingField: 0.2
+    <ScaleMotionEase>k__BackingField: 6
+    <ScaleDeckOrPile>k__BackingField: 0.4
+    <ScaleMove>k__BackingField: 0.75
+    <ScaleHand>k__BackingField: 1

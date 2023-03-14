@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class BoxManager : MonoBehaviour
 {
+    /*
     public GameObject[] BoxSpawnLocations;
     public GameObject[] CloneBox;
     int CloneBoxIndex;
@@ -45,7 +46,7 @@ public class BoxManager : MonoBehaviour
 
 
 
-
+    /*
     public void HowMuchBox()
     {
         IntimeHowMuchBoxWillSpawn =  VariableManager.math.RandomNumber(0, 6);
@@ -69,6 +70,7 @@ public class BoxManager : MonoBehaviour
 
 
 
+    */
 
 
 
@@ -77,8 +79,7 @@ public class BoxManager : MonoBehaviour
 
 
 
-
-
+    /*
 
 
 
@@ -98,11 +99,11 @@ public class BoxManager : MonoBehaviour
 
 
 
+    */
 
 
 
-
-
+    
 
 }
 
