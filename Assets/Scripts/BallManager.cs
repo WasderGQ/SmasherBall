@@ -49,7 +49,7 @@ public class BallManager : MonoBehaviour
         {
             CloneBall[0] = Instantiate<GameObject>(_prefabBall, SpawnLocation, Quaternion.identity, VariableManager.resolutionManager.Game_Canvas.transform);
             RDBall[0] = CloneBall[0].GetComponent<Rigidbody2D>();
-            CloneBall[0].gameObject.GetComponent<Ball>().ID = 0;
+            //CloneBall[0].gameObject.GetComponent<Ball>().ID = 0;   
             
         }
     
@@ -60,7 +60,7 @@ public class BallManager : MonoBehaviour
     {     
     CloneBall[CloneBallArrayIndex] = Instantiate<GameObject>(_prefabBall, SpawnLocation, Quaternion.identity, VariableManager.resolutionManager.Game_Canvas.transform);
     RDBall[CloneBallArrayIndex] = CloneBall[CloneBallArrayIndex].GetComponent<Rigidbody2D>();
-    CloneBall[CloneBallArrayIndex].gameObject.GetComponent<Ball>().ID = CloneBallArrayIndex;
+   // CloneBall[CloneBallArrayIndex].gameObject.GetComponent<Ball>().ID = CloneBallArrayIndex;
     
     }
 

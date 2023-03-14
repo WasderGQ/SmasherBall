@@ -31,7 +31,7 @@ public class GameCheckerCollider : MonoBehaviour
 
             OnCollisionEnterObject = collision;
             HowMuchBallHoldingInsideGameCheckerCollider++;
-            collision.gameObject.GetComponent<Ball>().AmIHitTheGameCheckerCollider = true;
+           // collision.gameObject.GetComponent<Ball>().AmIHitTheGameCheckerCollider = true;
             FirstBallPositionChecker();
             BallStopper();
             DestroyCloneBalls();
@@ -69,7 +69,7 @@ public class GameCheckerCollider : MonoBehaviour
     {
         if(collision.gameObject.tag == "Ball")
         {
-        collision.gameObject.GetComponent<Ball>().AmIHitTheGameCheckerCollider = false;
+       // collision.gameObject.GetComponent<Ball>().AmIHitTheGameCheckerCollider = false;
         HowMuchBallHoldingInsideGameCheckerCollider--;
 
 
@@ -122,13 +122,13 @@ public class GameCheckerCollider : MonoBehaviour
     
     void FirstBallPositionChecker()
     {
-        if (OnCollisionEnterObject.gameObject.GetComponent<Ball>().ID == 0)
+      /*  if (OnCollisionEnterObject.gameObject.GetComponent<Ball>().ID == 0)
         {
             FirstBallLocationOnGameCheckerCollider = OnCollisionEnterObject.transform;
             
            
         }
-
+      */
 
     }
 
@@ -144,13 +144,13 @@ public class GameCheckerCollider : MonoBehaviour
     void DestroyCloneBalls()
     {
 
-        if (OnCollisionEnterObject.gameObject.GetComponent<Ball>().ID > 0)
+       /* if (OnCollisionEnterObject.gameObject.GetComponent<Ball>().ID > 0)
         {
             Destroy(OnCollisionEnterObject.gameObject);
 
 
         }
-
+       */
     }
 
 

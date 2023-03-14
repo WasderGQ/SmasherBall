@@ -7,6 +7,11 @@ TagManager:
   - Ball
   - GameCheckerCollider
   - Box
+  - BallKeeper
+  - Boarder
+  - BackGround
+  - Canvas
+  - Button
   layers:
   - Default
   - TransparentFX

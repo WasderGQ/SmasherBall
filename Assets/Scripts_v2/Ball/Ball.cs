@@ -15,9 +15,24 @@ public class Ball : MonoBehaviour
       
     }
 
+    private void Update()
+    {
+        randomthrow();
+    }
+
+    void randomthrow()
+    {
+        if(Input.GetKeyDown(KeyCode.W)) 
+        { 
+        
+        gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(100f,100f);
+        
+        
+        }
 
 
 
+    }
 
 
 }

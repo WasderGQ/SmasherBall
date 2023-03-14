@@ -4,17 +4,15 @@ using UnityEngine;
 
 public class GeneralSettings : MonoBehaviour
 {
-    int asd;
-    // Start is called before the first frame update
+    [SerializeField] private GameObject _settingPanel
+    
+
+
+
+
     void Awake()
     {
         TargetFrameSet();
-       
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
        
     }
 
@@ -45,14 +43,9 @@ public class GeneralSettings : MonoBehaviour
                 Application.targetFrameRate = 60;
                 break;
 
-
-
-
-
-
-
         }
 
+    void
 
 
 
